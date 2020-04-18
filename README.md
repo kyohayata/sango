@@ -1,0 +1,3 @@
+# sango
+
+WordPressのテーマSANGOの模写
