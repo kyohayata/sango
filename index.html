@@ -14,367 +14,327 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--jQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script type="text/javascript" src="no5.js"></script> 
+    <script type="text/javascript" src="js/common.js"></script> 
     <title>top</title>
   </head>
   <body>
     <header>
-      <div class="header-top">
-        <div class="container">
+      <div class="container">
+        <div class="flexbox">
           <div class="logo"><a href="#">SANGO</a></div>
           <nav class="navi">
             <ul>
               <li><a href="#"><i class="fas fa-flag"></i>特徴</a></li>
               <li><a href="#"><i class="fas fa-book"></i>使い方ガイド</a></li>
               <li><a href="#"><i class="fas fa-cloud-download-alt"></i>ダウンロード</a></li>
-              <li><a href="#"><i class="fas fa-search"></i></a></li>
             </ul>
           </nav><!--/.navi-->
-        </div><!--.container-->
-      </div><!--/.header-top-->
-      <div class="top-content">
-        <div class="container">
-          <div class="background-color">
+        </div><!--/.flexbox-->
+        <div class="first-view">
+          <div class="first-view__bgc">
             <img src="img/header.png" alt="">
-            <div class="text">
+            <div class="first-view__text">
               <h2>心地よいWordPressテーマ</h2>
-              <p>
-                SANGOはユーザーフレンドリーを追求したWordPressテーマです。
-                Googleのマテリアルデザインを大部分で採用。内部SEOも最適化されています。
-              </p>
-            </div><!--.text-->
-            <div class="btn">
+              <p>SANGOはユーザーフレンドリーを追求したWordPressテーマです。<br>Googleのマテリアルデザインを大部分で採用。内部SEOも最適化されています。</p>
+            </div><!--/.first-view__text-->
+            <div class="first-view__btn">
               <a  href="#">
                 <i class="fas fa-caret-right fa-2x"><p>特徴を見る</p></i>
               </a>
-            </div><!--/.btn-->
-          </div><!--.background-color-->
-        </div><!--.container-->
-      </div><!--.top-content--> 
+            </div><!--/.first-view__btn-->
+          </div><!--/.first-view__bgc-->
+        </div><!--/.first-view--> 
+      </div><!--.container-->
     </header>
     <div class="wrap">
       <div class="container">
         <main>
           <article>
-            <div class="title">
-              <section class="new-post">
-                <div>
-                  <i class="fas fa-rocket fa-2x"></i>
-                  新着記事
-                </div>
-              </section><!--.new-post-->
-              <div class="recommend-post">
-                <div>
-                  <i class="fas fa-bookmark fa-2x"></i>
-                  おすすめ記事
-                </div>
-              </div><!--.recommend-post-->
-            </div><!--/.title-->
+            <div class="item-top">
+              <section class="item-top__new-post">
+                <div><i class="fas fa-rocket fa-2x"></i>新着記事</div>
+              </section><!--.item-top__new-post-->
+              <div class="item-top__recommend-post">
+                <div><i class="fas fa-bookmark fa-2x"></i>おすすめ記事</div></div><!--.item-top__recommend-post-->
+            </div><!--/.item-top-->
             <div class="item">
-              <div class="top">
+              <div class="article">
                 <img src="img/top1.jpg" alt="" >
-                <a href="#">カスタマイズカテゴリー</a>
-                <a href="#">SANGOのショートコードでできること</a>
-              </div>
-              <div class="top">
-                  <img src="img/top2.jpg" alt="">
-                  <a href="#">見出し</a>
-                  <a href="#">記事を華やかに！約40種類の見出しデザイン</a>
-              </div>
-              <div class="top">
-                  <img src="img/top3.jpg" alt="">
-                  <a href="#">デザイン</a>
-                  <a href="#">40種類以上のボタンを用意</a>
-              </div>
-              <div class="top">
-                  <img src="img/top4.jpg" alt="">
-                  <a href="#">ニュース</a>
-                  <a href="#">SANGOで約30種類以上のボックスを挿入しよう</a>
-              </div>
-              <div class="top">
-                  <img src="img/top5.png" alt="">
-                  <a href="#">ニュース</a>
-                  <a href="#">ウィジェットを使いこなす:広告の設置もカンタン</a>
-              </div>
-              <div class="top">
-                  <img src="img/top6.jpg" alt="">
-                  <a href="#">カテゴリー名</a>
-                  <a href="#">カエレバ/ヨメレバのスタイルを設定済み</a>
-              </div>
-              <div class="top">
-                  <img src="img/top7.jpg" alt="">
-                  <a href="#">カテゴリー名</a>
-                  <a href="#">記事ページで広告を挿入できる位置の紹介</a>
-              </div> 
+                <a class="article__category" href="#">カスタマイズカテゴリー</a>
+                <a class="article__title" href="#">SANGOのショートコードでできること</a>
+              </div><!--/.article-->
+              <div class="article">
+                <img src="img/top2.jpg" alt="">
+                <a class="article__category" href="#">見出し</a>
+                <a class="article__title" href="#">記事を華やかに！約40種類の見出しデザイン</a>
+              </div><!--/.article-->
+              <div class="article">
+                <img src="img/top3.jpg" alt="">
+                <a class="article__category" href="#">デザイン</a>
+                <a class="article__title" href="#">40種類以上のボタンを用意</a>
+              </div><!--/.article-->
+              <div class="article">
+                <img src="img/top4.jpg" alt="">
+                <a class="article__category" href="#">ニュース</a>
+                <a class="article__title" href="#">SANGOで約30種類以上のボックスを挿入しよう</a>
+              </div><!--/.article-->
+              <div class="article">
+                <img src="img/top5.png" alt="">
+                <a class="article__category" href="#">ニュース</a>
+                <a class="article__title" href="#">ウィジェットを使いこなす:広告の設置もカンタン</a>
+              </div><!--/.article-->
+              <div class="article">
+                <img src="img/top6.jpg" alt="">
+                <a class="article__category" href="#">カテゴリー名</a>
+                <a class="article__title" href="#">カエレバ/ヨメレバのスタイルを設定済み</a>
+              </div><!--/.article-->
+              <div class="article">
+                <img src="img/top7.jpg" alt="">
+                <a class="article__category" href="#">カテゴリー名</a>
+                <a class="article__title" href="#">記事ページで広告を挿入できる位置の紹介</a>
+              </div><!--/.article-->
             </div><!--/.item-->
           </article>
         </main>
         <aside class="sidebar">
-          <div class="search">
+          <div class="sidebar__search">
             <p>検索</p>
             <div><i class="fas fa-search"></i></div>
-          </div><!--.search-->
-          <div class="sidebar-img">
+          </div><!--.sidebar__search-->
+          <div class="profile">
             <img src="img/sidebar.png" alt="">
-            <img src="img/sidebar1.png" alt="">
-            <p>CatNose</p>
-            <p>WordPressテーマ「SANGO」は
-              <a href="">サルワカ</a>の中
-              の人が制作しました。なお、本デモサイトに含
-              まれるアイキャッチ画像や記事内の画像はテー
-              マには含まれないのでご注意ください。
-            </p>
+            <img class="profile__catnose" src="img/sidebar1.png" alt="">
+            <p class="profile__name">CatNose</p>
+            <p class="profile__explain">WordPressテーマ「SANGO」は<a href="">サルワカ</a>の中の人が制作しました。<br>なお、本デモサイトに含まれるアイキャッチ画像や記事内の画像はテーマには含まれないのでご注意ください。</p>
             <div class="sns">
-              <a href="#">
-                <i class="fab fa-twitter fa-2x"></i>
-                <i class="fab fa-facebook fa-2x"></i>
-                <i class="fab fa-instagram fa-2x"></i>
-                <i class="fas fa-rss fa-2x"></i>
-              </a>
+              <a class="sns__twitter" href="#"><i class="fab fa-twitter fa-2x"></i></a>
+              <a class="sns__facebook" href="#"><i class="fab fa-facebook fa-2x"></i></a>
+              <a class="sns__instagram" href="#"><i class="fab fa-instagram fa-2x"></i></a>  
+              <a class="sns__rss" href="#"><i class="fas fa-rss fa-2x"></i></a>  
             </div><!--.sns-->
           </div><!--sidebar-img-->
           <div class="sidebar-menu">
-            <div class="menu-contents">
-              <div>
-                <i class="fas fa-map-marker-alt fa-2x"></i>
-                メニュー
-              </div>
-            </div><!--.menu-contents-->
+            <div class="sidebar-menu__contents">
+              <div><i class="fas fa-map-marker-alt fa-2x"></i>メニュー</div>
+            </div><!--.sidebar-menu__contents-->
             <ul>
-              <li><a href="#"><i class="fas fa-info-circle fa-3x"></i>SANGOについて</a></li>
-              <li><a href="#"><i class="fas fa-laptop fa-3x"></i>TOP用固定ページ</a></li>
-              <li><a href="#"><i class="fas fa-file-alt fa-3x"></i>利用規約</a></li>
-              <li><a href="#"><i class="fas fa-envelope fa-3x"></i>お問い合わせ</a></li>  
+              <li class="sidebar-menu__list1"><a href="#"><i class="fas fa-info-circle fa-3x"></i></a>SANGOについて</li>
+              <li class="sidebar-menu__list2"><a href="#"><i class="fas fa-laptop fa-3x"></i></a>TOP用固定ページ</li>
+              <li class="sidebar-menu__list3"><a href="#"><i class="fas fa-file-alt fa-3x"></i></a>利用規約</li>
+              <li class="sidebar-menu__list4"><a href="#"><i class="fas fa-envelope fa-3x"></i></a>お問い合わせ</li>  
             </ul>   
           </div><!--.sidebar-menu-->
           <div class="popular">
-            <div class="explain">
-              <i class="fas fa-chart-line fa-2x"></i>
-              POPULAR
-            </div><!--.explain-->
+            <div class="explain"><i class="fas fa-chart-line fa-2x"></i>POPULAR</div><!--.explain-->
             <ul>
-              <li>
-                <img src="img/popular.jpg" alt="">
-                <div>WordPressテーマ「SANGO」29の魅力</div>
-                <p>1</p>
+              <li class="popular__list">
+                <img  class="popular__image" src="img/popular.jpg" alt="">
+                <p class="popular__title">WordPressテーマ「SANGO」29の魅力</p>
+                <p class="popular__number">1</p>
               </li>
-              <li>
-                <img src="img/popular1.jpg" alt="">
-                <div>記事を華やかに！約40種類の見出しデザイン</div>
-                <p>2</p>
+              <li class="popular__list">
+                <img  class="popular__image" src="img/popular1.jpg" alt="">
+                <p class="popular__title">記事を華やかに！約40種類の見出しデザイン</p>
+                <p class="popular__number">2</p>
               </li>
-              <li>
-                <img src="img/popular2.jpg" alt="">
-                <div>SANGOのショートコードでできること</div>
-                <p>3</p>
+              <li class="popular__list">
+                <img  class="popular__image" src="img/popular2.jpg" alt="">
+                <p class="popular__title">SANGOのショートコードでできること</p>
+                <p class="popular__number">3</p>
               </li>
-              <li>
-                <img src="img/popular3.jpg" alt="">
-                <div>SANGOで約30種類のボックスを挿入しよう</div>
-                <p>4</p>
+              <li class="popular__list">
+                <img  class="popular__image" src="img/popular3.jpg" alt="">
+                <p class="popular__title">SANGOで約30種類のボックスを挿入しよう</p>
+                <p class="popular__number fourth-number">4</p>
               </li>
             </ul>
           </div><!--/.popular-->
-            <div class="follow-me">
-              <div>
-                <p>Follow Me</p>
-              </div>
-              <ul>
-                <li>
-                  <a href="#">
-                    <i class="fab fa-twitter fa-3x"></i>
-                    <p>Twitter</p>
-                  </a>
-                  <a href="#">
-                    <i class="fab fa-facebook fa-3x"></i>
-                    <p>Facebook</p>
-                  </a>  
-                  <a href="#">
-                    <i class="fab fa-instagram fa-3x"></i>
-                    <p>Instagram</p>
-                  </a>
-                  <a href="#">
-                    <i class="fas fa-rss fa-3x"></i>
-                    <p>Feedly</p>
-                  </a>
-                </li>
-              </ul>
-            </div><!--.follow-me-->
-            <div class="archive">
-              <div>
-                <i class="fas fa-clock fa-lg">ARCHIVE</i>
-              </div>
-              <div>
-                <p>月を選択</p>
-                <p><i class="fa fa-caret-down fa-lg"></i></p>
-              </div>
-            </div><!--.archive-->
-            <div class="category">
-              <div>
-                  <i class="fas fa-bars fa-lg">CATEGORY</i>
-              </div>
-              <ul>
-                <li>
-                  <a href="#">
-                    <p>カスタマイズカテゴリー</p>
-                    <p>3</p>
-                  </a>                  
-                </li>
-                <li>
-                  <a href="#">
-                    <p>カテゴリー名</p>
-                    <p>10</p>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <p>デザイン</p>
-                    <p>7</p>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i class="fa fa-chevron-right"></i>
-                    <p>ボックス</p>
-                    <p>1</p>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i class="fa fa-chevron-right"></i>
-                    <p>リスト</p>
-                    <p>1</p>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i class="fa fa-chevron-right"></i>
-                    <p>見出し</p>
-                    <p>1</p>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <p>ニュース</p>
-                    <p>7</p>
-                  </a>
-                </li>
-              </ul>
-            </div><!--.category-->
-          </aside>
-        </div><!--.container-->
+          <div class="sidebar-menu">
+            <div class="sidebar-menu__contents">
+              <div class="sidebar-menu__fllow">Follow Me</div>
+            </div><!--.sidebar-menu__contents-->
+            <div class="sns bgc-w">
+              <a class="sns__twitter" href="#"><i class="fab fa-twitter fa-2x"></i></a>
+              <a class="sns__facebook" href="#"><i class="fab fa-facebook fa-2x"></i></a>
+              <a class="sns__instagram" href="#"><i class="fab fa-instagram fa-2x"></i></a>  
+              <a class="sns__rss" href="#"><i class="fas fa-rss fa-2x"></i></a>  
+            </div><!--.sns-->
+          </div><!--.sidebar-menu-->
+          <div class="sidebar-menu">
+            <div class="sidebar-menu__contents">
+              <div><i class="fas fa-clock fa-lg"></i>ARCHIVE</div>
+            </div><!--.sidebar-menu__contents-->
+            <div class="archive-list bgc-w">
+              <p>月を選択</p>
+              <p><i class="fa fa-caret-down fa-lg"></i></p>
+            </div><!--/.archive-list-->
+          </div><!--.sidebar-menu-->
+          <div class="sidebar-menu">
+            <div class="sidebar-menu__contents">
+              <div><i class="fas fa-bars fa-lg"></i>CATEGORY</div>
+            </div><!--.sidebar-menu__contents-->
+            <ul class="category bgc-w">
+              <li>
+                <a href="#">
+                  <p class="category__title">カスタマイズカテゴリー</p>
+                  <p class="category__post">3</p>
+                </a>                  
+              </li>
+              <li>
+                <a href="#">
+                  <p class="category__title">カテゴリー名</p>
+                  <p class="category__post">10</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <p class="category__title">デザイン</p>
+                  <p class="category__post">7</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="category__awesome fa fa-chevron-right"></i>
+                  <p class="category__subtitle">ボックス</p>
+                  <p class="category__post">1</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="category__awesome fa fa-chevron-right"></i>
+                  <p class="category__subtitle">リスト</p>
+                  <p class="category__post">1</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="category__awesome fa fa-chevron-right"></i>
+                  <p class="category__subtitle">見出し</p>
+                  <p class="category__post">1</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <p class="category__title">ニュース</p>
+                  <p class="category__post">7</p>
+                </a>
+              </li>
+            </ul><!--/.category-->
+          </div><!--.sidebar-menu-->
+        </aside>
+      </div><!--.container-->
       </div>
       <div class="bottom">
         <div class="container">
-          <div class="left">
-            <div class="search">
+          <div class="position">
+            <div class="sidebar__search margin-left">
               <p>検索</p>
               <div><i class="fas fa-search"></i></div>
-            </div><!--.search-->
+            </div><!--.sidebar__search-->
+            <ul class="position__ul">
+              <li class="position__list">
+                <p class="position__title">PAGES</p>                
+              </li><!--/.position__list-->
+              <li class="position__list">
+                <a href="#">
+                  <i class="position__color fa fa-chevron-right"></i>
+                  <p class="position__name">1カラム固定ページ</p>
+                </a>
+              </li><!--/.position__list-->
+              <li class="position__list">
+                <a href="#">
+                  <i class="position__color fa fa-chevron-right"></i>
+                  <p class="position__name">SANGOについて</p>
+                </a>
+              </li><!--/.position__list-->
+              <li class="position__list">
+                <a href="#">
+                  <i class="position__color fa fa-chevron-right"></i>
+                  <p class="position__name">トップページ用固定ページ</p>
+                </a>
+              </li><!--/.position__list-->
+            </ul><!--/.position__ul-->
+          </div><!--.position-->
+          <div class="position">
             <ul>
-              <li>
-                <p>PAGES</p>                
+              <li class="position__list">
+                <p class="position__title">RECENT POSTS</p>
               </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-chevron-right"></i>
-                  <p>1カラム固定ページ</p>
-                </a>
+              <li class="position__list">
+                <img class="position__image" src="img/bottom1.jpg" alt="">
+                <div class="position__text">WordPressテーマ「SANGO」29の魅力</div>
               </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-chevron-right"></i>
-                  <p>SANGOについて</p>
-                </a>
+              <li class="position__list">
+                <img class="position__image" src="img/bottom2.jpg" alt="">
+                <div class="position__text">SANGOのショートコードでできること</div>
               </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-chevron-right"></i>
-                  <p>トップページ用固定ページ</p>
-                </a>
-              </li>
-            </ul>
-          </div><!--.left-->
-          <div class="middle">
-            <ul>
-              <li>
-                <p>RECENT POSTS</p>
-              </li>
-              <li>
-                <img src="img/bottom1.jpg" alt="">
-                <div class="popular-text">WordPressテーマ「SANGO」29の魅力</div>
-              </li>
-              <li>
-                <img src="img/bottom2.jpg" alt="">
-                <div class="popular-text">SANGOのショートコードでできること</div>
-              </li>
-              <li>
-                <img src="img/bottom3.jpg" alt="">
-                <div class="popular-text">記事を華やかに！約40種類の見出しデザ<br>イン</div>
-              </li>
-            </ul>
-          </div>
-          <div class="right">
-            <ul>
-              <li>
-                <p>CATEGORY</p>                
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-chevron-right"></i>
-                  <p>カスタマイズカテゴリー</p>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-chevron-right"></i>
-                  <p>カテゴリー名</p>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-chevron-right"></i>
-                  <p>ニュース</p>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-chevron-right"></i>
-                  <p>ボックス</p>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-chevron-right"></i>
-                  <p>リスト</p>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-chevron-right"></i>
-                  <p>見出し</p>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-chevron-right"></i>
-                  <p>デザイン</p>
-                </a>
+              <li class="position__list">
+                <img class="position__image" src="img/bottom3.jpg" alt="">
+                <div class="position__text">記事を華やかに！約40種類の見出しデザイン</div>
               </li>
             </ul>
           </div>
-        </div>
+          <div class="position margin-bottom">
+            <ul>
+              <li class="position__list">
+                <p class="position__title">CATEGORY</p>                
+              </li>
+              <li class="position__list">
+                <a href="#">
+                  <i class="position__color fa fa-chevron-right"></i>
+                  <p class="position__name">カスタマイズカテゴリー</p>
+                </a>
+              </li>
+              <li class="position__list">
+                <a href="#">
+                  <i class="position__color fa fa-chevron-right"></i>
+                  <p class="position__name">カテゴリー名</p>
+                </a>
+              </li>
+              <li class="position__list">
+                <a href="#">
+                  <i class="position__color fa fa-chevron-right"></i>
+                  <p class="position__name">ニュース</p>
+                </a>
+              </li>
+              <li class="position__list">
+                <a href="#">
+                  <i class="position__color fa fa-chevron-right"></i>
+                  <p class="position__name">ボックス</p>
+                </a>
+              </li>
+              <li class="position__list">
+                <a href="#">
+                  <i class="position__color fa fa-chevron-right"></i>
+                  <p class="position__name">リスト</p>
+                </a>
+              </li>
+              <li class="position__list">
+                <a href="#">
+                  <i class="position__color fa fa-chevron-right"></i>
+                  <p class="position__name">見出し</p>
+                </a>
+              </li>
+              <li class="position__list">
+                <a href="#">
+                  <i class="position__color fa fa-chevron-right"></i>
+                  <p class="position__name">デザイン</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div><!--/.conatainer-->
       </div><!--.bottom-->
       <footer>
         <div class="container">
           <div class="footer-container">
-            <div>
+            <div class="footer-container__container">
               <i class="fas fa-home fa-lg fa-2x"></i>
-              <p>HOME</p>
+              <p class="footer-container__home">HOME</p>
             </div>
-            <div>
-              <p>利用規約</p>
-              <p>お問い合わせ</p>
+            <div class="footer-container__container padding-top">
+              <p class="footer-container__rule">利用規約</p>
+              <p class="footer-container__contact">お問い合わせ</p>
             </div>
             <p>©️2019 saruwakakun.com All rights reserved</p>
           </div>
@@ -382,5 +342,3 @@
       </footer>  
   </body>
 </html>
-
-
